@@ -1,0 +1,11 @@
+{
+  "name": "little-pack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rubygba/little-pack.git",
+  "author": "yaoweijian <yaoweijian@bytedance.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  }
+}
