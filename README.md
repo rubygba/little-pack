@@ -1,2 +1,3 @@
 # little-pack
- little esbuild
+
+little webpack & esbuild-pack demo

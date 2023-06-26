@@ -2,7 +2,7 @@
  * @Author: yaoweijian rubygba@foxmail.com
  * @Date: 2023-06-25 10:27:38
  * @LastEditors: yaoweijian rubygba@foxmail.com
- * @LastEditTime: 2023-06-25 10:41:45
+ * @LastEditTime: 2023-06-25 12:29:04
  * @FilePath: /little-pack/public/test/index.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -22,7 +22,8 @@ const p2 = new Promise((resolve, reject) => {
   }, 1000)
 })
 
-console.log(Promise.all([p1, p2]))
+const allRes = await Promise.all([p1, p2])
+console.log('allRes', allRes)
 // console.log(myAll([p1, p2]))
 console.log(myAll([p1, p2])
   .then(res => console.log(res))
