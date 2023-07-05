@@ -5,7 +5,17 @@
   "repository": "https://github.com/rubygba/little-pack.git",
   "author": "yaoweijian <yaoweijian@bytedance.com>",
   "license": "MIT",
+  "scripts": {
+    "jsx": "babel src/hello.jsx --out-file public/hello.js"
+
+  },
   "dependencies": {
     "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.6",
+    "@babel/core": "^7.22.6",
+    "@babel/preset-env": "^7.22.6",
+    "@babel/preset-react": "^7.22.5"
   }
 }
