@@ -7,10 +7,13 @@
   "license": "MIT",
   "scripts": {
     "jsx": "babel src/hello.jsx --out-file public/hello.js"
-
   },
   "dependencies": {
-    "typescript": "^5.0.4"
+    "@vue/compiler-dom": "^3.3.4",
+    "@vue/compiler-sfc": "^3.3.4",
+    "koa": "^2.14.2",
+    "typescript": "^5.0.4",
+    "vue": "^3.3.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.22.6",
