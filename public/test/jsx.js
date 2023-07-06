@@ -1,7 +1,7 @@
 /*
  * @Date: 2023-07-05 07:30:25
  * @LastEditors: yaoweijian rubygba@foxmail.com
- * @LastEditTime: 2023-07-05 07:58:44
+ * @LastEditTime: 2023-07-07 07:22:11
  * @FilePath: /little-pack/public/test/jsx.js
  * @Description: koro desc
  */
@@ -18,7 +18,7 @@ import React from './myReact.js'
 //     </div>
 //   )
 // }
-
+// babel =>
 export default (() => {
   let x = 'hello world';
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", null, "jsx title"), /*#__PURE__*/React.createElement("section", null, /*#__PURE__*/React.createElement("p", null, x)));
